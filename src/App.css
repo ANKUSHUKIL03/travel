@@ -17,3 +17,25 @@
 .para{
   text-align: center;
 }
+
+.school-name {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  animation: reveal 5s steps(25, end) infinite, typeWriter 5s steps(15, end) infinite, blinkCursor 0.5s infinite;
+  filter: drop-shadow();
+}
+
+#home{
+  width: 60%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(61, 49, 49, 0.74));
+
+  background-size: cover;
+  background-position: center;
+}

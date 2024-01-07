@@ -1,0 +1,15 @@
+.decoration
+{
+    padding: 20px;
+    /*margin-left: 500px;*/
+    text-align: center;
+    color: red;
+    text-shadow: 4px 2px black;
+}
+.para
+{
+    margin-left: 70px;
+    color: blue;
+    text-shadow: 1px 1px black;
+
+}

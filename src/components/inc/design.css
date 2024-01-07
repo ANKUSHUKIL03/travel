@@ -1,6 +1,41 @@
 .size{
-    position: relative;
-    font-size: 3px;
-    margin-bottom: 1000px;
-    padding-bottom: 20px;
+    margin-top: 100%;
+    margin-left: 280%;
+   text-shadow: black 2px 2px;
+   color: red;
+    font-size: 36%; /* Adjust the font size as needed for your design */
+    margin-top: 4rem; /* Adjust the top margin as needed */
+  
+  /* Media query for screens with a maximum width of 768px (adjust as needed) */
+  @media (max-width: 500px) {
+    .size {
+      font-size: 24px; /* Adjust the font size for smaller screens */
+      margin-top: 2rem; /* Adjust the top margin for smaller screens */
+    }
+  }
+   
+}
+.size1{
+    text-shadow: none;
+    color: black;
+    margin-left: 250px;
+    font-size: 36%; /* Adjust the font size as needed for your design */
+    margin-top: 4rem; /* Adjust the top margin as needed */
+  
+  /* Media query for screens with a maximum width of 768px (adjust as needed) */
+  @media (max-width: 500px) {
+    .size {
+      font-size: 24px; /* Adjust the font size for smaller screens */
+      margin-top: 2rem; /* Adjust the top margin for smaller screens */
+    }
+  }
+}
+.size2{
+    margin-top: 100rem;
+    margin-left: 500px;
+    font-size: 50px;
+   text-shadow: black 4px 4px;
+   color: red;
+
+   
 }

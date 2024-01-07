@@ -4,24 +4,33 @@ function Contact()
 {
     return(
         <div >
-              <div className="container">
+            <div className="py-4 bg info">
+                <div className="container">
+                    <div className="row shadow">
+                        <h4>About us</h4>
+                    </div>
+                </div>
+            </div>
+        <div className="container">
+
             <div className="row">
-                <div className="col-md-12 text-centre">
-                    <h2 className="main-heading">Contact</h2>
-                    <div className="underline mx-auto  "> </div>  
-                    <p className="para">
-                        welcome , How can We help you?
-                        you can contact us through email or call us on the number mentioned below,
-                        Thankyou
-                        
-                    </p>
+                <div className="card shadow">
+                    <div className="card-body">
+                        <div className="form-group">
+                             <label htmlFor="">FULL NAME-</label>
+                            <input type="text" placeholder="enter full name"/>
+                            <div className="pt-3">
+                            <label htmlFor="">ENTER GMAIL-</label>
+                          
+                            <input type="text" placeholder="abc@gmail.com"/>
+                            </div>
 
-                         
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            </div>
-
-
-        </div>
+        </div>    
 
         </div>
     );
